@@ -15,30 +15,25 @@ a {
 }
 
 p {
-   font-size: 25px;
-   font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
 }
 
 img {
-  width: 100%;
-}
-
-p {
-  text-align: center;
+    width: 100%;
+    height: auto; /* Đảm bảo tỷ lệ hình ảnh */
 }
 
 div img {
-    width: 150px;
-    height: 150px;
     display: block;
     margin: auto;
 }
 
 div {
-  display: inline-block;
-  width: 24%;
-  margin: 5px;
-  padding: 2px;
+    display: inline-block;
+    width: 24%;
+    margin: 5px;
+    padding: 2px;
 }
 
 /* Media Query cho Tablet View (772px) */
@@ -50,8 +45,8 @@ div {
     }
     div img {
         max-height: 30vh;
-        width: auto; /* Đảm bảo hình ảnh giữ tỷ lệ khi thay đổi chiều cao */
-        height: auto; /* Để hình ảnh co giãn tự nhiên */
+        width: 100%;
+        height: auto;
     }
 }
 
